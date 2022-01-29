@@ -1,0 +1,17 @@
+Stack (Pilha).
+
+Principais Métodos:
+
+Stack<Carro> stackCarros = new Stack<>();
+
+stackCarros.push(new Carro("Ford"));
+stackCarros.push(new Carro("Chevrolet"));
+stackCarros.push(new Carro("Fiat"));
+
+stackCarros.search(new Carro("Chevrolet")); // Retorna a posição do elemento se encontrar considerando o numero 1 sendo o topo da pilha, caso contrario retorna -1.
+
+stackCarros.pop(); // Retira do 'TOPO' da pilha, ou seja, o ultimo carro adicionado.
+stackCarros.peek(); // Ele te mostra o carro que esta no 'TOPO' da pilha.
+stackCarros.empty(); // Verifica se a pilha esta vazia.
+
+
