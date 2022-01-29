@@ -1,0 +1,4 @@
+Conceitos de equals e hashCode.
+
+- Melhorar a busca de objetos.
+- Devem ser implementado juntos.
