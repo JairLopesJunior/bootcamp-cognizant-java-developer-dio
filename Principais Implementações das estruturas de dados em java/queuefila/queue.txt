@@ -1,0 +1,13 @@
+Queue (Fila, LinkedList).
+
+Principais Métodos:
+
+Queue<Carro> queue = new LinkedList<Carro>();
+
+queue.add(new Carro("Fiat")); // Tenta adicionar caso nao consiga ele da um erro.
+queue.element(); // Recupera, mas não remove, o cabeçalho dessa fila. Este método difere de peek apenas porque lança uma exceção se esta fila estiver vazia.
+queue.offer(new Carro("Renault")); // Tenta adicionar nao nao consiga retorna 'false'.
+queue.peek(); // Mostra o elemento que esta no topo da fila, se ter vazia retorna null.
+queue.remove(); // Recupera e remove o cabeçalho desta fila. Este método difere de poll() apenas porque lança uma exceção se esta fila estiver vazia.
+queue.poll(); // Ele remove o primeiro elemento da fila.
+queue.isEmpty(); // Verifica se a fila esta vazia.
